@@ -1,0 +1,14 @@
+---
+import imgPerfil from '../img/jerickgm.jpeg';
+---
+
+<div class="grid grid-cols-12 p-9 items-center">
+    <div class="col-span-9 flex flex-col text-left text-zinc-300">
+        <span class="font-black text-4xl tracking-widest">Jorge Erick Garcia Moron</span>
+        <span class="text-xl">Developer Craftsman</span>
+    </div>
+    <div class="col-span-3">
+        <img class="inline max-h-28 rounded-full border-slate-300 border-4" src={imgPerfil}>
+    </div>
+    <slot />
+</div>

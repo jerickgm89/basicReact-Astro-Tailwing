@@ -1,0 +1,54 @@
+---
+import Body from "../components/BodyPage.astro";
+import Header from "../components/NavBar.astro";
+import Content from "../components/Content.astro";
+import CardPerfil from "../components/CardPerfil.astro";
+import imgBackground from '../img/background.jpg';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JErickGM</title>
+</head>
+<Body>
+	<Header />
+	<Content>
+		<img class="inline rounded-md shadow-2xl" src={imgBackground}/>
+		<CardPerfil />
+		<div class="grid grid-cols-12 pt-2 pb-2 pr-9 pl-9 items-center">
+			<div class="col-span-12 flex flex-col text-left text-zinc-300">
+				<h1 class="text-2xl font-extrabold underline decoration-4">Acerca de mi</h1>
+				<p class="pt-2 pb-2 text-justify font-medium text-lg">Soy Jorge Garcia soy un desarrollador full-stack y freelance, vivo en la ciudad de Lima, mi pasion es programar. Mis pasatiempos lo ocupo en perfeccionarme en temas al desarrollo de Software y en mis ratos libres investigo sobre el avance de la ciencia en temas relacionados a la Astronomia, Fisica Cuantica e Inteligencia Artificial.</p>
+
+				<h1 class="text-2xl font-extrabold underline decoration-4 pt-2 pb-2">Bio</h1>
+				<ul>
+					<li>1989</li>
+					<li>2018</li>
+					<li>2022</li>
+				</ul>
+
+				<h1 class="text-2xl font-extrabold underline decoration-4 pt-2 pb-2">Redes</h1>
+				<ul>
+					<li>Facebook</li>
+					<li>Instagram</li>
+					<li>Twitter</li>
+				</ul>
+			</div>
+		</div>
+	</Content>
+	
+	
+</Body>
+</html>
+<style>
+	html{
+		background-color: rgb(22, 23, 24);
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		-webkit-font-smoothing: antialiased;
+	}
+
+</style>
