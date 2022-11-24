@@ -20,17 +20,17 @@ const skill = [
         icon: <GiBrainstorm />
     },    
     {
-        id: 3,
+        id: 4,
         descripcion: 'Resilencia',
         icon: <TbExchange />
     },    
     {
-        id: 4,
+        id: 5,
         descripcion: 'Responsabilidad',
         icon: <IoMdTimer />
     },    
     {
-        id: 5,
+        id: 6,
         descripcion: 'Liderazgo',
         icon: <MdPeopleAlt />
     }
