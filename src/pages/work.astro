@@ -1,12 +1,14 @@
 ---
 import CardPerfil from "../components/CardPerfil.astro";
 import Content from "../components/Content.astro";
-import Plantilla from "../layouts/HtmlLayaut.astro";
+import Plantilla from "../layouts/LayoutBase.astro";
 
+import imgBackground from '../img/portada.jpg';
 ---
 
 <Plantilla title="Works">
-    <Content>
-        <CardPerfil />
-    </Content>
+	<Content>
+		<img class="inline rounded-md shadow-2xl" src={imgBackground}/>
+		<CardPerfil />
+	</Content>	
 </Plantilla>
