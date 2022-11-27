@@ -19,7 +19,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout your repository using git
-        uses: actions/checkout@v2          
+        uses: actions/checkout@v2    
+      - name: Install tailwind
+        run: yarn astro add tailwind      
+      - name: Install react
+        run: yarn astro add react
+      - name: Install react-icons
+        run: yarn add react-icons
       - name: Install, build, and upload your site
         uses: withastro/action@v0
         with:
