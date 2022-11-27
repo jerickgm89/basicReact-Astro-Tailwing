@@ -1,4 +1,3 @@
-
 const knowledge = [
     {
         id: 1,
@@ -23,7 +22,8 @@ const knowledge = [
     {
         id: 6,
         descripcion: 'Desarrollo de wireframe, mockups & prototype con Adobe XD'
-    },
+    }
+    
 ]
 
 export default knowledge;
