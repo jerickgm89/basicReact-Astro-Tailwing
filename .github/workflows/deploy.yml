@@ -29,12 +29,10 @@ name: Deploy Astro to GitHub Pages
         # Not using npm? Change `npm ci` to `yarn install` or `pnpm i`
         - name: Install dependencies
           run: yarn install
-        - name: Install dependencies
-          run: yarn add react-icons
 
         # Not using npm? Change `npm run build` to `yarn build` or `pnpm run build`
         - name: Build Astro
-          run: yarn build --if-present
+          run: yarn run build --if-present
 
         - name: Upload artifact
           uses: actions/upload-pages-artifact@v1

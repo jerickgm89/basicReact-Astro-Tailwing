@@ -1,38 +1,33 @@
-import { MdWorkOutline, MdPeopleAlt } from "react-icons/md";
-import { GiBrainTentacle, GiBrainstorm } from "react-icons/gi";
-import { TbExchange } from "react-icons/tb";
-import { IoMdTimer } from "react-icons/io";
-
 const skill = [
     {
         id: 1,
-        descripcion: 'Trabajo en equipo',
-        icon: <MdWorkOutline />
+        descripcion: 'Trabajo en equipo'
+        
     },
     {
         id: 2,
-        descripcion: 'Proactivo',
-        icon: <GiBrainTentacle />
+        descripcion: 'Proactivo'
+       
     },    
     {
         id: 3,
-        descripcion: 'Autodidacta',
-        icon: <GiBrainstorm />
+        descripcion: 'Autodidacta'
+        
     },    
     {
         id: 4,
-        descripcion: 'Resilencia',
-        icon: <TbExchange />
+        descripcion: 'Resilencia'
+        
     },    
     {
         id: 5,
-        descripcion: 'Responsabilidad',
-        icon: <IoMdTimer />
+        descripcion: 'Responsabilidad'
+        
     },    
     {
         id: 6,
-        descripcion: 'Liderazgo',
-        icon: <MdPeopleAlt />
+        descripcion: 'Liderazgo'
+        
     }
 ]
 
