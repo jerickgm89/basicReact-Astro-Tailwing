@@ -8,7 +8,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://jerickgm.me',
+  site: 'https://www.jerickgm.me',
   base: '/basicReact-Astro-Tailwing',
   integrations: [react(), tailwind()]
 });
