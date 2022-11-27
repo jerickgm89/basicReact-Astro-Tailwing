@@ -7,7 +7,7 @@ name: Deploy Astro to GitHub Pages
       # Allows you to run this workflow manually from the Actions tab on GitHub.
       workflow_dispatch:
 
-      # Allow this job to clone the repo and create a page deployment
+    # Allow this job to clone the repo and create a page deployment
     permissions:
       contents: read
       pages: write
@@ -19,7 +19,6 @@ name: Deploy Astro to GitHub Pages
         steps:
         - name: Check out your repository using git
           uses: actions/checkout@v2
-
         - name: Use Node.js 18
           uses: actions/setup-node@v2
           with:
