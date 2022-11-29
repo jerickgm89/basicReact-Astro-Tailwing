@@ -15,7 +15,7 @@ const skill = [
     },    
     {
         id: 4,
-        descripcion: 'Resilencia'
+        descripcion: 'Resiliencia'
         
     },    
     {
